@@ -1,6 +1,6 @@
 [build]
   command = "vite build"
-  publish = "/"  
+  publish = "/dist"  
 
 [dev]
   framework = "vite"  
