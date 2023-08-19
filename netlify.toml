@@ -1,7 +1,9 @@
-# netlify.toml
 [build]
-  command = "npm run build"
-  publish = "build"
+  command = "npm run dev"
+  publish = "/"  
+
+[dev]
+  framework = "vite"  
 
 [prerender]
   enabled = true
@@ -11,4 +13,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
