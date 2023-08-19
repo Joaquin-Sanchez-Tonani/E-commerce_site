@@ -1,0 +1,124 @@
+.horizontal-header{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary);
+    transition: 1s;
+}
+
+.horizontal-header-dark{
+    display: flex;
+    height: 8vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary--dark);
+    transition: 1s;
+}
+
+.logo{
+    font-size: 40px;
+    font-weight: 700;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 30px;
+    margin-left: 16px;
+    color: rgb(71, 71, 71);
+}
+
+.login{
+    font-size: 25px;
+    font-weight: 700;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: rgb(255, 255, 255);
+    gap: 30px;
+    margin-right: 50px;
+}
+
+
+.logo-dark{
+    font-size: 40px;
+    font-weight: 700;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 30px;
+    margin-left: 16px;
+    color: aliceblue;
+}
+
+
+
+
+
+.fi-sr-toggle-off{
+    cursor: pointer;
+}
+
+.fi-rr-user,.fi-brands-artstation,.fi-rs-grid,.fi-br-search,.fi-sr-toggle-off,.fi-rr-sun,.fi-rr-moon-stars,.fi-rr-cart-shopping-fast{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.fi-br-search{
+    padding-left: 16px;
+}
+
+
+.name-logo{
+    font-size: 35px;
+}
+
+.active-car{
+    background-color: aliceblue;
+    transition: .5s;
+    color: black;
+}
+
+.fi-rs-grid{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+
+
+@media (max-width:1100px) {
+    .fi-rs-grid{
+        display: flex;
+    }
+
+    
+}
+
+@media (max-width:768px) {
+    .name-logo{
+        display: none;
+    }
+    .login-dark{
+        gap: 15px;
+        margin-left: 20px;
+    }
+    .login{
+        gap: 15px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 300px) {
+    .fi-brands-artstation{
+        display: none;
+    }
+}

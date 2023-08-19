@@ -1,0 +1,19 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--primary);
+}
+
+:root{
+    --bg--section: rgb(41, 43, 57);
+    --bg-color: rgb(255, 255, 255);
+    --title: black;
+    --discount: rgb(4, 87, 4);
+    --description: rgb(99, 99, 99);
+    --primary: rgb(61, 157, 130);
+    --primary--dark: rgb(12, 8, 32);
+}

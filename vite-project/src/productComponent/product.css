@@ -1,0 +1,132 @@
+.product-container{
+    height: 500px;
+    width: 350px;
+    border: 2px solid rgba(81, 81, 81, 0.692);
+    border-radius: 2%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2),
+     0 1px 1px 0 rgba(0,0,0,.14),
+      0 1px 3px 0 rgba(0,0,0,.12);
+    background-color: rgb(255, 255, 255);
+    animation: productTop 1s alternate;
+}
+
+@keyframes productTop {
+    from{
+        margin-top: 200px;
+    }
+    to{
+        margin-top: 0;
+    }
+}
+
+.product-container-image{
+    height: 60%;
+    border-bottom: 2px solid rgba(81, 81, 81, 0.692);
+    padding: 50px;
+}
+
+.product-container-image-img{
+    width: 100%;
+}
+
+.product-container-title{
+    height: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-container-title-prices{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-container-title-prices-price{
+    color: var(--title);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.product-container-title-prices-discount{
+    color: var(--discount);
+    font-weight: 1000;
+}
+
+.product-container-title-freeShipping{
+    color: var(--discount);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.product-container-title-freeShipping-description{
+    color: var(--description);
+    margin: 0;
+}
+
+.span-off{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.product-container-title-prices-before{
+    text-decoration: line-through;
+}
+
+.car{
+    border: none;
+    background-color: orange;
+    padding: 5px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.product-container:hover > .car{
+    padding: 10px 0;
+    font-size: 25px;
+    transition: .5s;
+}
+
+@media (max-width:1100px) {
+    .product-container{
+        height: 400px;
+        width: 230px;
+        justify-self: center;
+    }
+
+    .product-container:hover > .car{
+        padding: 5px 0;
+        font-size: 15px;
+    }
+
+    .product-container-image{
+        height: 60%;
+        padding: 30px;
+    }
+    
+    .product-container-image-img{
+        width: 100%;
+    }
+    
+    .product-container-title{
+        gap: 5px;
+    }
+    
+    .product-container-title-prices-price{
+        font-size: 20px;
+    }
+    
+    .product-container-title-freeShipping-description{
+        font-size: 15px;
+    }
+
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.estructura{
+    display: flex;
+    width: 100%;
+}
+
