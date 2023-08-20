@@ -34,7 +34,6 @@
     flex-direction: column;
     gap: 13px;
     padding-left: 40px;
-    cursor: pointer;
     transition: .2s;
 }
 

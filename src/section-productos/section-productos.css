@@ -48,14 +48,14 @@
 .no-products{
     font-size: 50px;
     color: rgb(0, 0, 0);
-    padding: 500px;
+    margin: 50px 0 0 0;
     transition: 1s;
 }
 
 .no-products-dark{
     font-size: 50px;
     color: rgb(255, 255, 255);
-    padding: 500px;
+    margin: 50px 0 0 0;
     transition: 1s;
 }
 
