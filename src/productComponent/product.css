@@ -11,15 +11,17 @@
      0 1px 1px 0 rgba(0,0,0,.14),
       0 1px 3px 0 rgba(0,0,0,.12);
     background-color: rgb(255, 255, 255);
-    animation: productTop 1s alternate;
+    animation: productTop 1s forwards;
 }
 
 @keyframes productTop {
     from{
-        margin-top: 200px;
+        opacity: 0;
+        transform: translateY(50%);
     }
     to{
-        margin-top: 0;
+        transform: translateY(0);
+        opacity: 1;
     }
 }
 
