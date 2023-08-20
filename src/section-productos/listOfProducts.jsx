@@ -125,7 +125,7 @@ export default function listOfProducts(){
         },{
             id: 9,
             division:'Processors INTEL',
-            img: rg,
+            img: processor_intel_pentium,
             alt: 'Processor INTEL',
             discount: null,
             price: calculatorPrice(37200,0,0).toLocaleString(),

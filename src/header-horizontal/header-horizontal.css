@@ -6,6 +6,9 @@
     align-items: center;
     background-color: var(--primary);
     transition: 1s;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
 }
 
 .horizontal-header-dark{
@@ -16,6 +19,9 @@
     align-items: center;
     background-color: var(--primary--dark);
     transition: 1s;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
 }
 
 .logo{
