@@ -8,6 +8,17 @@ body{
     background-color: var(--primary);
 }
 
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+a:visited{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+
 :root{
     --bg--section: rgb(41, 43, 57);
     --bg-color: rgb(255, 255, 255);

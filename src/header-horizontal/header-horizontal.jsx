@@ -10,10 +10,10 @@ function HeaderHorizontal(){
             <div className='login'>
                 <span style={{color:'orange', fontSize:'30px', padding:'0', cursor: ' pointer'}}>{Amount !== 0 && Amount}</span>
                 <span style={{color:'red', fontSize:'30px', cursor: ' pointer'}} onClick={resetCar}>{Amount > 0 && 'X'}</span>
-                <i onClick={setCar} class={Car ? 'fi fi-rr-cart-shopping-fast active-car' : 'fi fi-rr-cart-shopping-fast'}></i>
-                <i onClick={toggleMode} class={Mode ? 'fi fi-rr-moon-stars' : 'fi fi-rr-sun'}></i>
-                <i className="fi fi-rr-user"></i>
-                <i onClick={barMenu} class="fi fi-rs-grid"></i>
+                <i onClick={setCar} className={Car ? 'fi fi-rr-cart-shopping-fast active-car' : 'fi fi-rr-cart-shopping-fast'}></i>
+                <i onClick={toggleMode} className={Mode ? 'fi fi-rr-moon-stars' : 'fi fi-rr-sun'}></i>
+                <a href="/userValidation"><i className="fi fi-rr-user"></i></a>
+                <i onClick={barMenu} className="fi fi-rs-grid"></i>
             </div>
         </header>
     )
